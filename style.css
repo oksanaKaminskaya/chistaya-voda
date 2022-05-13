@@ -55,7 +55,7 @@ body {
     color: rgb(205, 205, 205) !important;
 }
 
-#header-nav.about a.active{
+#header-nav.about a.active {
     border-bottom: 5px dashed rgb(205, 205, 205)
 }
 
@@ -330,4 +330,136 @@ tr:hover {
 
 #contact-table tr:hover {
     background: transparent;
+}
+
+#production-wrapper {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#production-content {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1260px;
+}
+
+.production-items {
+    cursor: pointer;
+    width: 290px;
+    height: 310px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    background: rgb(241, 241, 241);
+}
+
+.production-title {
+    width: 100%;
+    height: 50px;
+    color: #12428c;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.production-items img {
+    position: relative;
+    margin: 0 auto;
+    top: -15px;
+    left: 30px;
+    height: 200px;
+}
+
+.production-sub-title {
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+}
+
+#stocks-wrapper {
+    position: absolute;
+    top: 135px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#stocks-content {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1260px;
+}
+
+#stocks-left, #stocks-right {
+    width: 400px;
+    text-align: center;
+}
+
+#stocks-left img, #stocks-right img {
+    height: 190px;
+}
+
+.stock-title {
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.stock-sub-title {
+    position: relative;
+    top: 15px;
+    font-weight: 600;
+    padding: 10px;
+    padding-bottom: 50px;
+    color: rgb(216, 216, 216);
+}
+
+#stock-trust-title {
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 2px;
+    margin: 90px 0;
+
+}
+
+.trust-title {
+    color: #3e4edc;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.trust-sub-title {
+    color: rgb(88, 88, 88);
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#stocks-img {
+    position: relative;
+    width: 100%;
+    height: 510px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/new-fon-2000x733.jpg);
+}
+
+#trust-left, #trust-center, #trust-right {
+    width: 250px;
+    text-align: center;
 }
